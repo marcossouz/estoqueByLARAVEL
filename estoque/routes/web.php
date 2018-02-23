@@ -11,6 +11,10 @@
 |
 */
 
+/*
 Route::get('/', function () {
-    return "<h1>Primeira logica com laravel</h1>";
+    return '<h1>Primeira logica com laravel</h1>';
 });
+*/
+
+Route::get('/produtos', 'ProdutoController@lista');
